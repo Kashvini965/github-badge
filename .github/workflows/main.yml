@@ -3,6 +3,7 @@ name: Update Stack Overflow Badge
 on:
   push:
   pull_request:
+  workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"
 
